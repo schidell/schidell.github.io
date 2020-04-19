@@ -72,37 +72,48 @@ a:link {
     position:absolute;
     bottom:0;  
     left: 0px; 
+    width: 100%;
 }
 
 
 .about-me{
-    background-color: #4A535D;
+    /* background-color: #4A535D; */
     background-image: url('./img/professional-pic.JPG');
     height: 850px;
     width: auto;
     /* min-height: 500px; */
     background-size: cover;
-    background-position: left;
 }
 
-#overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+  .transbox {
+    background-color: black;
+    opacity: 0.5;
+    padding: 35px;
+    height: 100%;
   }
 
-.a-m-desc{
-    width: 750px;
+  .transbox-text{
+      color: white;
+      padding-top: 1rem;
+  }
+
+@media (max-width: 1000px) {
+    .welcome {
+        width: 100%;
+        min-height: 0;
+    }
+    
+    .about-me {
+        width: 100%;
+        min-height: 0;
+    }
+    
+}	
+
+@media (max-width: 770px) {
+
+    .transbox {
+        width: 100%;
+    }
 }
 
-/* .profile-pic{
-    background-image: url('./img/professional-pic.JPG');
-} */
