@@ -1,0 +1,108 @@
+html {
+	scroll-behavior: smooth;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+ul.sideNav{
+
+}
+li.nav-item{
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20ps;
+}
+
+.welcome{
+    background-image: url('./img/gradient-background.png');
+    height: 850px;
+    width: auto;
+    /* min-height: 500px; */
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.sub-wi{
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: thin;
+    padding-left: 30rem;
+    padding-top: 17rem;
+}
+
+.name{
+    color: #3D3241;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont-btn {
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 53rem;
+
+}
+
+.cont-btn:hover {
+    background-color: #3D3241; 
+    text-decoration: none;
+    color: white;
+  }
+
+.mountains-pic{
+    /* align-self: baseline; */
+    position:absolute;
+    bottom:0;  
+    left: 0px; 
+}
+
+
+.about-me{
+    background-color: #4A535D;
+    background-image: url('./img/professional-pic.JPG');
+    height: 850px;
+    width: auto;
+    /* min-height: 500px; */
+    background-size: cover;
+    background-position: left;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+.a-m-desc{
+    width: 750px;
+}
+
+/* .profile-pic{
+    background-image: url('./img/professional-pic.JPG');
+} */
