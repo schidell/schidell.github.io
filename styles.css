@@ -50,6 +50,8 @@ a, a:hover, a:focus, a:active a:link{
     left: 0; */
 
     background-image: url('./img/welcome-background.jpg');
+    /* text-align: center; */
+
     
 }
 
@@ -93,6 +95,10 @@ a, a:hover, a:focus, a:active a:link{
     /* background-color: #E4DFE1; */
 }
 
+.name-m{
+    display: none;
+}
+
 .cont-btn{
     display: block;
     /* margin-left: 120px; */
@@ -104,6 +110,21 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 @media (max-width: 770px) {
+    .name{
+        display: none;
+
+    }
+    .name-m{
+        /* margin-left: 120px; */
+        /* float: left; */
+        display: block;
+        color: white;
+        font-size: 70px;
+        font-weight:800;
+        color: #6D7993;
+        padding: 0.2em;
+        /* background-color: #E4DFE1; */
+    }
 
     
 }
