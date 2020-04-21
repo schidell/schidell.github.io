@@ -2,124 +2,117 @@ html {
 	scroll-behavior: smooth;
 }
 
-a, a:hover, a:focus, a:active {
+a, a:hover, a:focus, a:active a:link{
     text-decoration: none;
     color: inherit;
 }
-ul.sideNav{
 
-}
-li.nav-item{
-    background-color: white;
-    border-radius: 50%;
-    height: 20px;
-    width: 20ps;
-}
-
-.welcome{
-    background-image: url('./img/gradient-background.png');
-    height: 850px;
-    width: auto;
-    /* min-height: 500px; */
-    background-size: cover;
-    background-position: center;
-    position:relative;
-}
-
-a:link {
+*{
     text-decoration: none;
-  }
+    font-family: 'Montserrat', sans-serif;
+}
 
-.sub-wi{
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    margin: 0.7em;
+    padding: 0.7em;
+}
+
+/* NAVBAR */
+.sidenav{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* WELCOME PAGE */
+.welcome{
+    height: 100%;
+    width: auto;
+    position: relative;
+    /* position: fixed;
+    top: 0; */
+    
+    
+    /* min-height: 100%;
+    min-width: 1024px;
+        
+    width: 100%;
+    height: auto;
+        
+    position: fixed;
+    top: 0;
+    left: 0; */
+
+    background-image: url('./img/welcome-background.jpg');
+    
+}
+
+.welcome-contents{
+    left: 15%;
+    top: 30%;
+    position: absolute;
+
+}
+
+.hello{
+    /* margin-left: 120px; */
+    /* padding-top: 190px; */
+    line-height: 80px;
     color: white;
-    font-style: italic;
-    font-size: 35px;
-    font-weight: thin;
-    padding-left: 30rem;
-    padding-top: 17rem;
+    font-weight:600;
+    font-size: 40px;
+    font-style: bolder;
+    top: 500;
+    display: block;
+}
+
+.name-box{
+    display: inline-block;
+    background-color: rgb(228, 223, 225, 0.6);
+    text-align: center;
+    line-height: 40px;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    border: 4px solid white;
 }
 
 .name{
-    color: #3D3241;
+    /* margin-left: 120px; */
+    /* float: left; */
+    color: white;
     font-size: 70px;
-    font-weight: bold;
-    text-align: center;
+    font-weight:800;
+    color: #6D7993;
+    padding: 0.2em;
+    /* background-color: #E4DFE1; */
 }
 
-.cont-btn {
-    border: 2px solid white;
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-    padding: 2px 15px;
-    text-align: center;
-    text-decoration: none;
+.cont-btn{
+    display: block;
+    /* margin-left: 120px; */
     border-radius: 12px;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 53rem;
-
-}
-
-.cont-btn:hover {
-    background-color: #3D3241; 
-    text-decoration: none;
+    background-color: #6D7993;
+    font-weight:500;
     color: white;
-  }
-
-.mountains-pic{
-    /* align-self: baseline; */
-    position:absolute;
-    bottom:0;  
-    left: 0px; 
-    width: 100%;
+    /* margin-top: 1em; */
 }
-
-
-.about-me{
-    /* background-color: #4A535D; */
-    background-image: url('./img/professional-pic.JPG');
-    height: 850px;
-    width: auto;
-    /* min-height: 500px; */
-    background-size: cover;
-}
-
-  .transbox {
-    background-color: black;
-    opacity: 0.5;
-    padding: 35px;
-    height: 100%;
-  }
-
-  .transbox-text{
-      color: white;
-      padding-top: 1rem;
-  }
-
-@media (max-width: 1000px) {
-    .welcome {
-        width: 100%;
-        min-height: 0;
-    }
-    
-    .about-me {
-        width: 100%;
-        min-height: 0;
-    }
-    
-}	
 
 @media (max-width: 770px) {
 
-    .transbox {
-        width: 100%;
-    }
-    .about-me{
-        width: 100%;
-    }
-    .welcome{
-        width: 100%;
-    }
+    
+}
+
+/* ABOUT ME PAGE */
+.about-me{
+    height: 100%;
+    width: auto;
+    /* position: fixed;
+    top: 0; */
 }
 
