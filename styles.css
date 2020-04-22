@@ -10,6 +10,7 @@ a, a:hover, a:focus, a:active a:link{
 *{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
 }
 
 .wrapper{
@@ -19,20 +20,50 @@ a, a:hover, a:focus, a:active a:link{
     bottom: 0;
     right: 0;
     overflow: auto;
-    margin: 0.7em;
-    padding: 0.7em;
+    /* margin: 0.7em; */
+    padding: 1em;
 }
 
 /* NAVBAR */
-.sidenav{
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+
+
+.sticky-nav{
+    z-index: 1;
+    /* position: sticky; */
+    position: fixed;
+    /* top: 80px; */
+    left: calc(100vw - 5vw);
+    top: calc(40vh);
+    width: 1px;
+      
 }
+.sideNav{
+    /* top: 200px; */
+}
+
+.nav-item{
+    border-radius: 50%;
+    /* width: 20px;
+    height: 20px; */
+    background-color: #E4DFE1;
+
+    /* width:3vh;
+    height:3vh;
+    padding-bottom: 20px; */
+    width: 3vh;
+    height: 3vh;
+    padding-bottom: 20px;
+}
+
+.nav-item:hover{
+    background-color: #6D7993;
+
+}
+
 
 /* WELCOME PAGE */
 .welcome{
-    height: 100%;
+    height: calc(100vh - 2em);
     width: auto;
     position: relative;
     /* position: fixed;
@@ -52,13 +83,13 @@ a, a:hover, a:focus, a:active a:link{
     background-image: url('./img/welcome-background.jpg');
     /* text-align: center; */
 
-    
 }
 
 .welcome-contents{
     left: 15%;
     top: 30%;
     position: absolute;
+    overflow: hidden;
 
 }
 
@@ -79,6 +110,7 @@ a, a:hover, a:focus, a:active a:link{
     background-color: rgb(228, 223, 225, 0.6);
     text-align: center;
     line-height: 40px;
+    overflow: hidden;
     padding-top: 1em;
     margin-bottom: 2em;
     border: 4px solid white;
@@ -88,7 +120,7 @@ a, a:hover, a:focus, a:active a:link{
     /* margin-left: 120px; */
     /* float: left; */
     color: white;
-    font-size: 70px;
+    font-size: 5vw;
     font-weight:800;
     color: #6D7993;
     padding: 0.2em;
@@ -104,29 +136,10 @@ a, a:hover, a:focus, a:active a:link{
     /* margin-left: 120px; */
     border-radius: 12px;
     background-color: #6D7993;
+    font-size: 20px;
     font-weight:500;
     color: white;
-    /* margin-top: 1em; */
-}
-
-@media (max-width: 770px) {
-    .name{
-        display: none;
-
-    }
-    .name-m{
-        /* margin-left: 120px; */
-        /* float: left; */
-        display: block;
-        color: white;
-        font-size: 70px;
-        font-weight:800;
-        color: #6D7993;
-        padding: 0.2em;
-        /* background-color: #E4DFE1; */
-    }
-
-    
+    margin-bottom: 2em;
 }
 
 /* ABOUT ME PAGE */
@@ -135,5 +148,37 @@ a, a:hover, a:focus, a:active a:link{
     width: auto;
     /* position: fixed;
     top: 0; */
+}
+
+/* SMALLER SCREENS */
+
+@media (max-width: 770px) {
+    .welcome{
+        overflow: scroll;
+        text-align: center;
+    }
+
+    .welcome-contents{
+        display: inline-block;
+    }
+
+    .name{
+        display: none;
+    }
+    .name-m{
+        /* margin-left: 120px; */
+        /* float: left; */
+        display: block;
+        color: white;
+        font-size: 10vw;
+        font-weight:800;
+        color: #6D7993;
+        padding: 0.2em;
+        /* background-color: #E4DFE1; */
+    }
+
+    .sticky-nav{
+        left: calc(100vw - 15vw);
+    }
 }
 
