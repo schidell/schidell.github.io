@@ -10,7 +10,9 @@ a, a:hover, a:focus, a:active a:link{
 *{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .wrapper{
@@ -25,38 +27,49 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 /* NAVBAR */
-
-
 .sticky-nav{
     z-index: 1;
     /* position: sticky; */
-    position: fixed;
     /* top: 80px; */
-    left: calc(100vw - 5vw);
-    top: calc(40vh);
-    width: 1px;
+    /* left: calc(100vw - 4.5em); */
+
+    position: fixed;
+    right: 3.5em;
+    top: 40vh;
+    width: 20px;
+
+    /* width: 1px; */
+    /* display: flex; */
+
+    /* position: sticky;
+    top: 30px;
+    left: 30px; */
       
-}
-.sideNav{
-    /* top: 200px; */
 }
 
 .nav-item{
+    text-decoration: none;
     border-radius: 50%;
     /* width: 20px;
     height: 20px; */
     background-color: #E4DFE1;
+    
 
     /* width:3vh;
     height:3vh;
     padding-bottom: 20px; */
-    width: 3vh;
-    height: 3vh;
-    padding-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 15px;
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    border: 2px solid white;
+    
 }
 
 .nav-item:hover{
     background-color: #6D7993;
+    border: 2px solid #6D7993;
 
 }
 
@@ -66,6 +79,7 @@ a, a:hover, a:focus, a:active a:link{
     height: calc(100vh - 2em);
     width: auto;
     position: relative;
+    padding: 1em;
     /* position: fixed;
     top: 0; */
     
@@ -140,17 +154,105 @@ a, a:hover, a:focus, a:active a:link{
     font-weight:500;
     color: white;
     margin-bottom: 2em;
+    text-decoration: none;
+    border: none;
 }
 
 /* ABOUT ME PAGE */
 .about-me{
+    /* position: relative; */
     height: 100%;
     width: auto;
+    padding: 6vw 5vw 5vw 5vw;
     /* position: fixed;
     top: 0; */
 }
 
+.h1{
+    /* margin-left: 120px; */
+    /* float: left; */
+    color: white;
+    font-size: 2.5em;
+    font-weight:800;
+    color: #6D7993;
+    line-height: 50px;
+    padding-bottom: 0.5em;
+    /* background-color: #E4DFE1; */
+}
+
+.a-m-content{
+    content: "";
+    display: table;
+    clear: both;
+clear:left;
+clear:right;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /* height: 2vh;  */
+    /* padding-bottom: 1em; */
+  }
+
+.pic-me{
+    /* display: inline-block; */
+    /* width: 50em; */
+    /* display: block; */
+    width: 100%;
+    /* float: left; */
+    /* padding-bottom: 1em; */
+}
+
+.a-m-text{
+    /* margin-left: 1rem; */
+}
+
+.a-m-text p{
+    /* overflow: hidden; */
+    /* margin: 1em; */
+    /* padding: 15px; */
+    /* float: left; */
+
+}
+
+.highlight{
+    word-wrap: break-word;
+
+}
+
+.highlight-item{
+    font-weight: 600;
+    background-color: #6D7993;
+    /* border-radius: 50%; */
+    /* border-radius: 10px / 20%;; */
+    border-radius: 19px;
+    text-align: center;
+    padding: 8px 16px;
+    line-height: 2.5em;
+    color: white;
+}
+
+
+
 /* SMALLER SCREENS */
+/* @media (max-width: 950px) {
+
+    
+    .pic-me{
+        width: 100%;
+        float: none;
+    }
+    .a-m-text {
+        overflow: scroll;
+    } 
+    .sticky-nav{
+        display: none;
+    }
+} */
+
 
 @media (max-width: 770px) {
     .welcome{
@@ -178,7 +280,23 @@ a, a:hover, a:focus, a:active a:link{
     }
 
     .sticky-nav{
-        left: calc(100vw - 15vw);
+        display: none;
     }
+
+    .column{
+        width: 100%;
+        float: none;
+        /* display: block; */
+        /* display: block;
+        position: relative; */
+        /* display: block; */
+    }
+
+    
+
+    
+
+
+
 }
 
