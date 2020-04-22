@@ -254,7 +254,7 @@ clear:right;
 } */
 
 
-@media (max-width: 770px) {
+@media (max-width: 812px) {
     .welcome{
         overflow: scroll;
         text-align: center;
