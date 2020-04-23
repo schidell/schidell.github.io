@@ -80,6 +80,8 @@ a, a:hover, a:focus, a:active a:link{
     width: auto;
     position: relative;
     padding: 1em;
+
+    
     /* position: fixed;
     top: 0; */
     
@@ -149,14 +151,21 @@ a, a:hover, a:focus, a:active a:link{
     display: block;
     /* margin-left: 120px; */
     border-radius: 12px;
-    background-color: #6D7993;
+    background-color:  #6D7993;
     font-size: 20px;
     font-weight:500;
     color: white;
     margin-bottom: 2em;
     text-decoration: none;
-    border: none;
+    border: 2px solid #6D7993;
+    padding: 5px 10px;
 }
+
+/* .cont-btn:hover{
+    background-color: #6D7993;
+    color: black;
+
+} */
 
 /* ABOUT ME PAGE */
 .about-me{
@@ -184,18 +193,23 @@ a, a:hover, a:focus, a:active a:link{
     content: "";
     display: table;
     clear: both;
-clear:left;
-clear:right;
+    clear:left;
+    clear:right;
     
 }
 
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 0px 20px 20px 0px;
     /* height: 2vh;  */
     /* padding-bottom: 1em; */
-  }
+}
+
+.a-m-t{
+    padding: 20px;
+}
+
 
 .pic-me{
     /* display: inline-block; */
@@ -206,16 +220,25 @@ clear:right;
     /* padding-bottom: 1em; */
 }
 
-.a-m-text{
-    /* margin-left: 1rem; */
+.b1{
+    font-size: 15px;
+    color: #5E5E5E;
+    font-weight: 400;
+    margin-top: 1em;
 }
 
-.a-m-text p{
-    /* overflow: hidden; */
-    /* margin: 1em; */
-    /* padding: 15px; */
-    /* float: left; */
+.b2{
+    font-size: 15px;
+    color: #D8AB4E;
+    font-weight: 600;
+    margin-top: 1em;
+}
 
+.b3{
+    font-size: 19px;
+    color: #D8AB4E;
+    font-weight: 600;
+    margin-top: 1em;
 }
 
 .highlight{
@@ -225,36 +248,20 @@ clear:right;
 
 .highlight-item{
     font-weight: 600;
+    font-size: 15px;
     background-color: #6D7993;
     /* border-radius: 50%; */
     /* border-radius: 10px / 20%;; */
     border-radius: 19px;
     text-align: center;
     padding: 8px 16px;
-    line-height: 2.5em;
+    line-height: 2.7em;
     color: white;
 }
 
 
 
-/* SMALLER SCREENS */
-/* @media (max-width: 950px) {
-
-    
-    .pic-me{
-        width: 100%;
-        float: none;
-    }
-    .a-m-text {
-        overflow: scroll;
-    } 
-    .sticky-nav{
-        display: none;
-    }
-} */
-
-
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .welcome{
         overflow: scroll;
         text-align: center;
@@ -290,6 +297,10 @@ clear:right;
         /* display: block;
         position: relative; */
         /* display: block; */
+    }
+
+    .a-m-t{
+        padding: 0px;
     }
 
     
