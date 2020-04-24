@@ -136,9 +136,10 @@ a, a:hover, a:focus, a:active a:link{
     /* margin-left: 120px; */
     /* float: left; */
     color: white;
+    /* color: #6D7993; */
+
     font-size: 5vw;
     font-weight:800;
-    color: #6D7993;
     padding: 0.2em;
     /* background-color: #E4DFE1; */
 }
@@ -169,7 +170,6 @@ a, a:hover, a:focus, a:active a:link{
 
 /* ABOUT ME PAGE */
 .about-me{
-    /* position: relative; */
     height: fit-content;
     width: auto;
     padding: 6vw 5vw 0vw 5vw;
@@ -195,7 +195,9 @@ a, a:hover, a:focus, a:active a:link{
     clear: both;
     clear:left;
     clear:right;
-    
+    float: left;
+    overflow: hidden;
+
 }
 
 .column {
@@ -267,6 +269,12 @@ a, a:hover, a:focus, a:active a:link{
     height: 100%;
     width: auto;
     padding: 6vw 5vw 0vw 5vw;
+    display: block; 
+    float: left;
+    height: fit-content;
+
+    /* overflow: hidden; */
+
     /* position: fixed;
     top: 0; */
 }
@@ -309,6 +317,7 @@ a, a:hover, a:focus, a:active a:link{
     width: 100%;
     padding-bottom: 30px;
     padding-top: 15px;
+    display: block;
 }
 
 
@@ -317,6 +326,18 @@ a, a:hover, a:focus, a:active a:link{
     text-decoration: underline;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* PROJECTS PAGE */
+.projects{
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    padding: 6vw 5vw 0vw 5vw;
+    display: block;
+
+    /* position: fixed;
+    top: 0; */
 }
 
 
@@ -341,7 +362,6 @@ a, a:hover, a:focus, a:active a:link{
         color: white;
         font-size: 10vw;
         font-weight:800;
-        color: #6D7993;
         padding: 0.2em;
         /* background-color: #E4DFE1; */
     }
@@ -380,8 +400,14 @@ a, a:hover, a:focus, a:active a:link{
         float: none;
         padding: 0px; */
         display: none;
-        
     }
+
+    .experience{
+        display: block;
+        height: fit-content;
+    }
+
+    
 
 
     

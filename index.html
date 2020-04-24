@@ -29,7 +29,7 @@
         <a href=#welcome><button title="Welcome" type="button" class="nav-item active"> </button></a>
         <a href=#about-me><button title="About Me" type="button" class="nav-item"> </button></a>
         <a href=#experience><button type="button" class="nav-item"> </button></a>
-        <a href=#about-me><button type="button" class="nav-item"> </button></a>
+        <a href=#projects><button type="button" class="nav-item"> </button></a>
         <a href=#welcome><button type="button" class="nav-item"> </button></a>
         <a href=#about-me><button type="button" class="nav-item"> </button></a>
 
@@ -150,10 +150,18 @@
                     </p>
                     <img class="work-pic" src="img\manulife-hackathon.JPG">
                 </div>
-
             </div>
+        </div>
+
+        <!-- Projects page -->
+        <div class="projects" id="projects">
+            <p class="h1">Projects</p>
+            Hello
+
 
         </div>
+
+
 
 
     </div>
@@ -187,6 +195,12 @@
     <script src="three.r95.min.js"></script>
     <script src="vanta.fog.min.js"></script>
     <script>
+
+        VANTA.BIRDS({
+            el: "#welcome",
+        });
+
+
         // VANTA.FOG({
         //     el: "#welcome",
         //     mouseControls: true,
@@ -201,22 +215,21 @@
         //     speed: 2.30
         // })
 
-        VANTA.FOG({
-            el: "#welcome",
-            mouseControls: true,
-            touchControls: true,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            highlightColor: 0xffc200,
-            midtoneColor: 0x915f91,
-            lowlightColor: 0x40711,
-            baseColor: 0xf5dbdb,
-            blurFactor: 0.57,
-            speed: 2.30
-        })
+        // VANTA.FOG({
+        //     el: "#welcome",
+        //     mouseControls: true,
+        //     touchControls: true,
+        //     minHeight: 200.00,
+        //     minWidth: 200.00,
+        //     highlightColor: 0xffc200,
+        //     midtoneColor: 0x915f91,
+        //     lowlightColor: 0x40711,
+        //     baseColor: 0xf5dbdb,
+        //     blurFactor: 0.7,
+        //     // 0.57,
+        //     speed: 1.00
+        // })
     </script>
-
-
 </body>
 
 </html>
