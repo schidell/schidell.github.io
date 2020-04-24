@@ -170,9 +170,9 @@ a, a:hover, a:focus, a:active a:link{
 /* ABOUT ME PAGE */
 .about-me{
     /* position: relative; */
-    height: 100%;
+    height: fit-content;
     width: auto;
-    padding: 6vw 5vw 5vw 5vw;
+    padding: 6vw 5vw 0vw 5vw;
     /* position: fixed;
     top: 0; */
 }
@@ -189,7 +189,7 @@ a, a:hover, a:focus, a:active a:link{
     /* background-color: #E4DFE1; */
 }
 
-.a-m-content{
+.content{
     content: "";
     display: table;
     clear: both;
@@ -234,12 +234,14 @@ a, a:hover, a:focus, a:active a:link{
     margin-top: 1em;
 }
 
-.b3{
+.b3{ 
+    /* for "find out more" */
     font-size: 19px;
     color: #D8AB4E;
     font-weight: 600;
     margin-top: 1em;
 }
+
 
 .highlight{
     word-wrap: break-word;
@@ -257,6 +259,59 @@ a, a:hover, a:focus, a:active a:link{
     padding: 8px 16px;
     line-height: 2.7em;
     color: white;
+}
+
+/* EXPERIENCE PAGE */
+.experience{
+    /* position: relative; */
+    height: 100%;
+    width: auto;
+    padding: 6vw 5vw 0vw 5vw;
+    /* position: fixed;
+    top: 0; */
+}
+
+.column-t {
+    float: left;
+    width: 30%;
+    padding: 20px 20px 20px 70px;
+    /* height: 2vh;  */
+    /* padding-bottom: 1em; */
+}
+
+.company-logo{
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* width: 250px; */
+
+
+}
+
+.work-pic{
+    width: 100%;
+}
+
+.position{
+    color: #5E5E5E;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.date{
+    color:#6D7993;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.resume-text{
+    color:#5E5E5E;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
@@ -294,13 +349,28 @@ a, a:hover, a:focus, a:active a:link{
         width: 100%;
         float: none;
         /* display: block; */
-        /* display: block;
-        position: relative; */
+        /* position: relative; */
         /* display: block; */
     }
 
     .a-m-t{
+        padding-bottom: 20px;
+    }
+
+    .company-logo{
+        padding: 0px 0px 25px 0px;
+
+    }
+
+    .column-t{
+        width: 100%;
+        float: none;
         padding: 0px;
+        /* padding-top: 290px; */
+        /* display: block; */
+        /* display: block;
+        position: relative; */
+        /* display: block; */
     }
 
     
