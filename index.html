@@ -2,35 +2,37 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/f68f0c8845.js" crossorigin="anonymous"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+
     <!-- Montserrat font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
 
-	<!-- tab icon -->
-	<link rel="icon" href='img\SC-icon.png' type='image/png'>
-	<title>Shivani Chidella</title>
+    <!-- tab icon -->
+    <link rel="icon" href='img\SC-icon.png' type='image/png'>
+    <title>Shivani Chidella</title>
 </head>
 
 <body>
     <!-- Floating Side Nav -->
     <div class="sticky-nav">
         <!-- <div class="sideNav" id="sideNav"> -->
-            <a href=#welcome><button title="Welcome" type="button" class="nav-item active"> </button></a>
-            <a href=#about-me><button title="About Me" type="button" class="nav-item"> </button></a>
-            <a href=#experience><button type="button" class="nav-item"> </button></a>
-            <a href=#about-me><button type="button" class="nav-item"> </button></a>
-            <a href=#welcome><button type="button" class="nav-item"> </button></a>
-            <a href=#about-me><button type="button" class="nav-item"> </button></a>
-            
+        <a href=#welcome><button title="Welcome" type="button" class="nav-item active"> </button></a>
+        <a href=#about-me><button title="About Me" type="button" class="nav-item"> </button></a>
+        <a href=#experience><button type="button" class="nav-item"> </button></a>
+        <a href=#about-me><button type="button" class="nav-item"> </button></a>
+        <a href=#welcome><button type="button" class="nav-item"> </button></a>
+        <a href=#about-me><button type="button" class="nav-item"> </button></a>
+
         <!-- </div> -->
         <!-- <ul class="sideNav" id="sideNav">
             <li class="nav-item">
@@ -46,9 +48,9 @@
         </ul> -->
     </div>
 
-      
+
     <div class="wrapper">
-        
+
         <!-- Welcome Page -->
         <div class="welcome" id="welcome">
             <div class="welcome-contents">
@@ -68,8 +70,10 @@
             <div class="content">
                 <div class="column a-m-p"><img class="pic-me" src="img\professional-pic.JPG"></div>
                 <div class="column a-m-t">
-                    <p class="b1">Welcome to my website!<br><br>I’m a second year student studying <span class="b2">Management Engineering</span> at the University of Waterloo. 
-                        I aspire to innovate and make a positive impact in the world of software. I’m fascinated by technology and design,  
+                    <p class="b1">Welcome to my website!<br><br>I’m a second year student studying <span
+                            class="b2">Management Engineering</span> at the University of Waterloo.
+                        I aspire to innovate and make a positive impact in the world of software. I’m fascinated by
+                        technology and design,
                         and am always eager to learn something new. <br><br>Some of my passions include:</p>
                     <p class="highlight">
                         <span class="highlight-item">Innovation</span>
@@ -86,7 +90,8 @@
                     <a href="https://www.linkedin.com/in/schidell/"><img src="img\linkedin.png" width=34></a>
                     <a href="https://github.com/schidell"><img src="img\github.png" width=34></a>
                     <a href="mailto:shivani.chidella@gmail.com"><img src="img\email.png" width=34></a>
-                    <a href="./shivani-resume.pdf" download = "Shivani_Chidella_Resume.pdf"><img src="img\resume.png" width=34></a>
+                    <a href="./shivani-resume.pdf" download="Shivani_Chidella_Resume.pdf"><img src="img\resume.png"
+                            width=34></a>
                 </div>
             </div>
         </div>
@@ -100,11 +105,16 @@
                 </div>
                 <div class="column">
                     <p class="company">Sun Life</p>
-                    <p class="b1"><span class="position">Innovation Application Developer</span><br><span class="date">Jan 2020 - Apr 2020</span>
-                        <br><br>Over four months, I developed 4 <span class="b2">voice apps</span> and 2 interactive <span class="b2">websites</span> 
-                        to bring innovative ideas to life. I demoed these solutions in the digital space, and the company’s live voice app to prospective clients. 
-                        <br><br>I also presented solutions developed using <span class="b2">design thinking</span> for both a design workshop and a term-long 
-                        “capstone” project.<br><br>See my <a href="./shivani-resume.pdf" download = "Shivani_Chidella_Resume.pdf"><span class="resume-text">resume</span></a> 
+                    <p class="b1"><span class="position">Innovation Application Developer</span><br><span
+                            class="date">Jan 2020 - Apr 2020</span>
+                        <br><br>Over four months, I developed 4 <span class="b2">voice apps</span> and 2 interactive
+                        <span class="b2">websites</span>
+                        to bring innovative ideas to life. I demoed these solutions in the digital space, and the
+                        company’s live voice app to prospective clients.
+                        <br><br>I also presented solutions developed using <span class="b2">design thinking</span> for
+                        both a design workshop and a term-long
+                        “capstone” project.<br><br>See my <a href="./shivani-resume.pdf"
+                            download="Shivani_Chidella_Resume.pdf"><span class="resume-text">resume</span></a>
                         for more details.</p>
                     <p class="highlight">
                         <span class="highlight-item">Node.js</span>
@@ -116,7 +126,7 @@
                         <span class="highlight-item">Git</span>
                         <span class="highlight-item">Design&nbsp;Thinking</span>
                     </p>
-                    <img class="work-pic" src="img\sunlife-coops.JPG"> 
+                    <img class="work-pic" src="img\sunlife-coops.JPG">
                 </div>
 
                 <div class="column-t">
@@ -124,17 +134,21 @@
                 </div>
                 <div class="column">
                     <p class="company">Manulife</p>
-                    <p class="b1"><span class="position">Software Process Engineer/Systems Analyst</span><br><span class="date">May 2019 - Aug 2019</span>
-                        <br><br>I developed an internal-use <span class="b2">web GUI</span> in an Agile team to interactively modify data, helped to aggregate workforce data, and 
-                        administered a feedback cycle for 250+ employees.<br><br> I also participated in an internal <span class="b2">Hackathon</span> and pitched our solution to senior IT, 
-                        as well as a co-op <span class="b2">innovation</span> challenge that was demoed to a panel of executives.</p>
+                    <p class="b1"><span class="position">Software Process Engineer/Systems Analyst</span><br><span
+                            class="date">May 2019 - Aug 2019</span>
+                        <br><br>I developed an internal-use <span class="b2">web GUI</span> in an Agile team to
+                        interactively modify data, helped to aggregate workforce data, and
+                        administered a feedback cycle for 250+ employees.<br><br> I also participated in an internal
+                        <span class="b2">Hackathon</span> and pitched our solution to senior IT,
+                        as well as a co-op <span class="b2">innovation</span> challenge that was demoed to a panel of
+                        executives.</p>
                     <p class="highlight">
                         <span class="highlight-item">Java</span>
                         <span class="highlight-item">Spring&nbsp;Boot</span>
                         <span class="highlight-item">SQL</span>
                         <span class="highlight-item">VBA</span>
                     </p>
-                    <img class="work-pic" src="img\manulife-hackathon.JPG"> 
+                    <img class="work-pic" src="img\manulife-hackathon.JPG">
                 </div>
 
             </div>
@@ -143,25 +157,7 @@
 
 
     </div>
-    
-    
-    <!-- <div class="wrapper">
-    
-        <div class="welcome" id="welcome">
-            <p class="sub-wi">hey there, i'm<br><span class="first-name">shivani </span><span class="last-name"> chidella</span></p>
 
-            <div class="continue"><a href=#about-me><button type="button" class="cont-btn">continue</button></a></div>
-            <img class="mountains-pic" src="img\just-mountains-crop.png" width=1442>
-        </div>
-        <div class="about-me" id="about-me">
-
-            <div id="transbox" class="transbox col-5">
-                <p class="h1 transbox-text">About Me</p>
-                <p class="h2 transbox-text">Welcome to my website!</p>
-                <p class="h5 transbox-text">I’m a second year student studying Management Engineering at the University of Waterloo.</p>
-            </div>
-    </div> -->
-    
     <!-- side nav
 	<div id="sideNav">
         <ul class="sideNav">
@@ -187,7 +183,40 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-	
-	
+
+    <script src="three.r95.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
+    <script>
+        // VANTA.FOG({
+        //     el: "#welcome",
+        //     mouseControls: true,
+        //     touchControls: true,
+        //     minHeight: 200.00,
+        //     minWidth: 200.00,
+        //     highlightColor: 0xfad767,
+        //     midtoneColor: 0xd4d4d4,
+        //     lowlightColor: 0x5d6da2,
+        //     baseColor: 0xf5dbdb,
+        //     blurFactor: 0.57,
+        //     speed: 2.30
+        // })
+
+        VANTA.FOG({
+            el: "#welcome",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            highlightColor: 0xffc200,
+            midtoneColor: 0x915f91,
+            lowlightColor: 0x40711,
+            baseColor: 0xf5dbdb,
+            blurFactor: 0.57,
+            speed: 2.30
+        })
+    </script>
+
+
 </body>
+
 </html>
