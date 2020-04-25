@@ -338,7 +338,7 @@ a, a:hover, a:focus, a:active a:link{
 /* PROJECTS PAGE */
 .projects{
     /* position: relative; */
-    height: 700px;
+    height: 100%;
     width: 100%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
@@ -555,15 +555,12 @@ a, a:hover, a:focus, a:active a:link{
         float: none;
     } */    
 
-    /* .box{
-        width: 300px;
-        height: 300px;
-    } */
+   
     /* .projects{
         height: 400px;
+    }
         
-    } */
-
+      */
     .box {
         /* padding: 20px 0; */
         height: 350px;
