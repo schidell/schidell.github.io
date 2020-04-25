@@ -380,14 +380,6 @@ a, a:hover, a:focus, a:active a:link{
      /* overflow: hidden; */
 }
 
-.img-container{
-    width: 500px;
-    height: 500px;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
-
 .floating {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -436,10 +428,8 @@ a, a:hover, a:focus, a:active a:link{
         text-align: center;
         display: block;
         background-size: cover;
-        height: 200vh;
-        
+        height: 200vh; 
     }
-
 }
 
 /* GENERAL SMALL DEVICES */
@@ -519,9 +509,11 @@ a, a:hover, a:focus, a:active a:link{
 
     .box{
         width: 300px;
+        height: 300px;
     }
 
     .card{
+        height: 100%;
         width: 300px;
     }
 
@@ -529,20 +521,5 @@ a, a:hover, a:focus, a:active a:link{
         width: 100%;
         height: 100%;
     }
-
-    .img-container{
-        width: 100%;
-        height: 100%;
-    }
-
-    
-
-
-    
-
-    
-
-
-
 }
 
