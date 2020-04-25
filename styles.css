@@ -461,12 +461,11 @@ a, a:hover, a:focus, a:active a:link{
         margin-right: 20px; */
       }
       
-      
       .vid-container {
         width: 100%;
         height: auto;
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
       }
 }
 
