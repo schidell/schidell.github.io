@@ -338,7 +338,7 @@ a, a:hover, a:focus, a:active a:link{
 /* PROJECTS PAGE */
 .projects{
     /* position: relative; */
-    height: 650px;
+    height: 700px;
     width: 100%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
