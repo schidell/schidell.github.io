@@ -297,6 +297,11 @@ a, a:hover, a:focus, a:active a:link{
     /* width: 250px; */
 }
 
+.line{
+    /* margin-left: 30px; */
+    display: none;
+}
+
 .company{
     display: none;
 }
@@ -346,30 +351,41 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .box{
-    height: 300px;
+    height: 500px;
     background-color: white;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
+
 .box::-webkit-scrollbar{
     display:none;
 }
-.card{
-    display: inline-block;
-    background-color: grey;
-    height: 100%;
-    width: 300px;
-}
 
-.card-b{
+.card{
     display: inline-block;
     background-color: lightgrey;
     height: 100%;
-    width: 300px;
-
+    width: 500px;
+    margin: 10px;
+    /* padding: 0px 20px 0px 20px; */
 }
 
+.vid-container{
+    /* height: 100%; */
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+     object-fit: cover;
+     /* overflow: hidden; */
+}
+
+.img-container{
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 
 
 .floating {
@@ -478,6 +494,10 @@ a, a:hover, a:focus, a:active a:link{
 
     }
 
+    .line{
+        display: none;
+    }
+
     .company{
         display: block;
         color: #5E5E5E;
@@ -495,6 +515,24 @@ a, a:hover, a:focus, a:active a:link{
     .experience{
         display: block;
         height: fit-content;
+    }
+
+    .box{
+        width: 300px;
+    }
+
+    .card{
+        width: 300px;
+    }
+
+    .vid-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-container{
+        width: 100%;
+        height: 100%;
     }
 
     
