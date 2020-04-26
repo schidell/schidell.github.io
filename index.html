@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/f68f0c8845.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
     <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 
     <!-- Montserrat font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -26,12 +28,33 @@
     <!-- Floating Side Nav -->
     <div class="sticky-nav">
         <!-- <div class="sideNav" id="sideNav"> -->
-        <a href=#welcome><button title="Welcome" type="button" class="nav-item active"> </button></a>
-        <a href=#about-me><button title="About Me" type="button" class="nav-item"> </button></a>
-        <a href=#experience><button type="button" class="nav-item"> </button></a>
-        <a href=#projects><button type="button" class="nav-item"> </button></a>
-        <a href=#travel><button type="button" class="nav-item"> </button></a>
-        <a href=#contact><button type="button" class="nav-item"> </button></a>
+        <!-- <a href=#welcome class="active"><button title="Welcome" type="button" class="nav-item active"> </button></a>
+        <a href=#about-me ><button title="About Me" type="button" class="nav-item"> </button></a>
+        <a href=#experience ><button type="button" class="nav-item"> </button></a>
+        <a href=#projects><button type="button" class="nav-item "> </button></a>
+        <a href=#travel><button type="button" class="nav-item "> </button></a>
+        <a href=#contact><button type="button" class="nav-item "> </button></a> -->
+
+        <ul class="sideNav">          
+            <li class="nav-item active">
+              <a class="nav-link scroll" href="#welcome"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#about-me"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#experience"></a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#projects"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#travel"></a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#contact-me"></a>
+            </li>      
+        </ul>
 
         <!-- </div> -->
         <!-- <ul class="sideNav" id="sideNav">
@@ -211,11 +234,9 @@
     </div> -->
 
     </div>
-
-
-
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -223,15 +244,33 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    </script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- javascript connection to smooth scrolling -->
+    <script src="index.js"></script> 
+    
 
     <script src="three.r95.min.js"></script>
     <script src="vanta.fog.min.js"></script>
+    <script src="./index.js"></script>
+
     <script>
+    
+        // VANTA.BIRDS({
+        //     el: "#welcome",
+        // });
 
         VANTA.BIRDS({
             el: "#welcome",
-        });
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            quantity: 4.00
+        })
 
 
         // VANTA.FOG({

@@ -1,28 +1,3 @@
-/* html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-} */
-
-/* html {
-	scroll-behavior: smooth;
-} */
-
 a, a:hover, a:focus, a:active a:link{
     text-decoration: none;
     color: inherit;
@@ -37,13 +12,12 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .wrapper{
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    overflow: auto;
-    /* margin: 0.7em; */
+    overflow: auto; */
     padding: 1em;
 }
 
@@ -70,9 +44,13 @@ a, a:hover, a:focus, a:active a:link{
 .nav-item:hover{
     background-color: #6D7993;
     border: 2px solid #6D7993;
-
 }
 
+.active {
+    /* color: blue; */
+    background-color: #6D7993;
+    border: 2px solid #5E5E5E;
+}
 
 /* WELCOME PAGE */
 .welcome{
@@ -82,25 +60,6 @@ a, a:hover, a:focus, a:active a:link{
     width: auto;
     position: relative;
     padding: 1em;
-
-    
-    /* position: fixed;
-    top: 0; */
-    
-    
-    /* min-height: 100%;
-    min-width: 1024px;
-        
-    width: 100%;
-    height: auto;
-        
-    position: fixed;
-    top: 0;
-    left: 0; */
-
-    /* background-image: url('./img/welcome-background.jpg'); */
-    /* text-align: center; */
-
 }
 
 .welcome-contents{
