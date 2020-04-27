@@ -25,7 +25,7 @@ a, a:hover, a:focus, a:active a:link{
 .sticky-nav{
     z-index: 1;
     position: fixed;
-    right: 3.5em;
+    left: 3.5em;
     top: 40vh;
     width: 20px;
 }
@@ -131,8 +131,9 @@ a, a:hover, a:focus, a:active a:link{
 
 /* ABOUT ME PAGE */
 .about-me{
+    margin-left: 3.5em;
     height: fit-content;
-    width: auto;
+    width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     /* position: fixed;
     top: 0; */
@@ -227,12 +228,15 @@ a, a:hover, a:focus, a:active a:link{
 /* EXPERIENCE PAGE */
 .experience{
     /* position: relative; */
+    margin-left: 3.5em;
+
     height: 100%;
     width: auto;
-    padding: 6vw 5vw 0vw 5vw;
+    padding: 6vw 0vw 0vw 5vw;
     display: block; 
     float: left;
     height: fit-content;
+
 
     /* overflow: hidden; */
 
@@ -296,14 +300,17 @@ a, a:hover, a:focus, a:active a:link{
 
 /* PROJECTS PAGE */
 .projects{
+    margin-left: 3.5em;
+
     /* position: relative; */
     height: 100%;
-    width: 100%;
+    width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
     flex-direction: column;
     position: relative;
     float: none;
+
 
     /* position: fixed;
     top: 0; */
@@ -352,9 +359,11 @@ a, a:hover, a:focus, a:active a:link{
 
 /* TRAVEL PAGEEEEEEEEEEEEEE */
 .travel{
+    margin-left: 3.5em;
+
     /* position: relative; */
     height: 100%;
-    width: 100%;
+    width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
     flex-direction: column;
@@ -380,9 +389,28 @@ a, a:hover, a:focus, a:active a:link{
     vertical-align: middle;
     width: 100%;
   }
+
+  .pc{
+        position: relative;
+        width: 100%;
+    
+  }
+
+  .tpic{
+      opacity: 0.8;
+      filter: grayscale(80%);
+
+  }
+
+  .pc:hover .tpic {
+    transition: .5s ease;
+    opacity: 1;
+    filter: grayscale(0%);
+
+  }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1200px) {
     .c {
       flex: 50%;
       max-width: 50%;
@@ -400,9 +428,11 @@ a, a:hover, a:focus, a:active a:link{
 
 /* CONTACT PAGE */
 .contact{
+    margin-left: 3.5em;
+
     /* position: relative; */
     height: 100%;
-    width: 100%;
+    width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
     flex-direction: column;
@@ -423,6 +453,14 @@ a, a:hover, a:focus, a:active a:link{
         height: 200vh; 
     }
 
+    .about-me{
+        margin-left: 0px;
+    }
+
+    .experience{
+        margin-left: 0px;
+    }
+
     /* .card .img-container .img {
         position: relative;
         height: 100%;
@@ -432,6 +470,7 @@ a, a:hover, a:focus, a:active a:link{
     .projects{
         /* position: relative; */
         height: 500px;
+        margin-left: 0px;
     }
         
     .box {
@@ -458,6 +497,15 @@ a, a:hover, a:focus, a:active a:link{
         height: auto;
         -o-object-fit: cover;
         object-fit: cover;
+      }
+
+      .travel{
+        margin-left: 0px;
+      }
+
+      .contact{
+        margin-left: 0px;
+        
       }
 }
 
@@ -493,6 +541,10 @@ a, a:hover, a:focus, a:active a:link{
 
     .sticky-nav{
         display: none;
+    }
+
+    .about-me{
+        margin-left: 0px;
     }
 
     .column{
@@ -534,6 +586,7 @@ a, a:hover, a:focus, a:active a:link{
     .experience{
         display: block;
         height: fit-content;
+        margin-left: 0px;
     }
 
     /* .projects{
@@ -551,8 +604,13 @@ a, a:hover, a:focus, a:active a:link{
     /* .projects{
         height: 400px;
     }
-        
+    
       */
+
+    .projects{
+          margin-left: 0px;
+    }
+
     .box {
         /* padding: 20px 0; */
         height: 350px;
@@ -582,5 +640,14 @@ a, a:hover, a:focus, a:active a:link{
         -o-object-fit: cover;
         object-fit: cover;
     }
+
+    .travel{
+        margin-left: 0px;
+    }
+
+      .contact{
+        margin-left: 0px;
+        
+      }
 }
 
