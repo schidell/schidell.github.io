@@ -27,7 +27,7 @@ a, a:hover, a:focus, a:active a:link{
     position: fixed;
     left: 3.5em;
     top: 40vh;
-    width: 20px;
+    /* width: 20px; */
 }
 
 .nav-item{
@@ -55,63 +55,67 @@ a, a:hover, a:focus, a:active a:link{
 /* WELCOME PAGE */
 .welcome{
     height: calc(100vh - 2em);
-    /* height: 200vh; */
-    /* height: fit-content; */
     width: auto;
-    position: relative;
-    padding: 1em;
+    background-color: darkcyan;
+
+    /* position: relative; */
+
+    /* text-align: center; */
+    /* padding: 1em; */
 }
 
 .welcome-contents{
-    left: 15%;
-    top: 30%;
+    /* left: 15%;
+    top: 30%; */
+
+    /* top: 30%;
+    left: 15%; */
+    margin-left: 8em;
+    padding-top: 8em;
+    word-wrap: break-word;
+    /* display: flexbox; */
+    /* flex-direction: column; */
+
+    /* display: inline-block; */
+    /* text-align: left; */
+/*     
     position: absolute;
-    overflow: hidden;
+    overflow: hidden; */
 
 }
 
 .hello{
-    /* margin-left: 120px; */
-    /* padding-top: 190px; */
     line-height: 80px;
     color: white;
     font-weight:600;
     font-size: 40px;
     font-style: bolder;
-    top: 500;
-    display: block;
 }
 
 .name-box{
-    display: inline-block;
+    /* display: inline-flex;
     background-color: rgb(228, 223, 225, 0.6);
-    text-align: center;
     line-height: 40px;
-    overflow: hidden;
-    padding-top: 1em;
-    margin-bottom: 2em;
-    border: 4px solid white;
+    padding: 1em;
+    border: 4px solid white; */
+    /* text-align: center; */
+
 }
 
 .name{
-    /* margin-left: 120px; */
-    /* float: left; */
     color: white;
-    /* color: #6D7993; */
-
-    font-size: 5vw;
+    /* font-size: 5vw; */
+    font-size: 60px;
     font-weight:800;
-    padding: 0.2em;
-    /* background-color: #E4DFE1; */
+    padding: 0.3em;
 }
 
-.name-m{
+/* .name-m{
     display: none;
-}
+} */
 
-.cont-btn{
+/* .cont-btn{
     display: block;
-    /* margin-left: 120px; */
     border-radius: 12px;
     background-color:  #6D7993;
     font-size: 20px;
@@ -121,7 +125,7 @@ a, a:hover, a:focus, a:active a:link{
     text-decoration: none;
     border: 2px solid #6D7993;
     padding: 5px 10px;
-}
+} */
 
 /* .cont-btn:hover{
     background-color: #6D7993;
@@ -446,11 +450,11 @@ a, a:hover, a:focus, a:active a:link{
 /* ROTATED PHONE */
 @media (max-width: 896px) and (max-height: 414px){
     .welcome{
-        overflow: auto;
+        /* overflow: auto;
         text-align: center;
         display: block;
-        background-size: cover;
-        height: 200vh; 
+        background-size: cover; */
+        /* height: 200vh;  */
     }
 
     .about-me{
@@ -512,32 +516,22 @@ a, a:hover, a:focus, a:active a:link{
 /* GENERAL SMALL DEVICES */
 @media (max-width: 896px) {
     .welcome{
-        overflow: auto;
+        /* overflow: auto;
         text-align: center;
         display: block;
-        background-size: cover;
-        /* height: 120vh; */
-        /* float: left; */
-        /* position: relative; */
+        background-size: cover; */
     }
 
-    .welcome-contents{
-        /* display: inline-block; */
-    }
-
-    .name{
+    /* .name{
         display: none;
-    }
-    .name-m{
-        /* margin-left: 120px; */
-        /* float: left; */
+    } */
+    /* .name-m{
         display: block;
         color: white;
         font-size: 10vw;
         font-weight:800;
         padding: 0.2em;
-        /* background-color: #E4DFE1; */
-    }
+    } */
 
     .sticky-nav{
         display: none;
