@@ -461,7 +461,7 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .projname{
-    font-size: 20px;
+    font-size: 18px;
     color: #D8AB4E;
     font-weight: 600;
 }
@@ -472,7 +472,7 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .projdesc{
-    font-size: 15px;
+    font-size: 14px;
     color: grey;
 }
 
