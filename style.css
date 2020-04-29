@@ -12,12 +12,6 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .wrapper{
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: auto; */
     padding: 1em;
 }
 
@@ -365,8 +359,6 @@ a, a:hover, a:focus, a:active a:link{
 /* PROJECTS PAGE */
 .projects{
     margin-left: 3.5em;
-
-    /* position: relative; */
     height: 100%;
     width: 95%;
     padding: 6vw 5vw 0vw 5vw;
@@ -374,15 +366,11 @@ a, a:hover, a:focus, a:active a:link{
     flex-direction: column;
     position: relative;
     float: none;
-
-
-    /* position: fixed;
-    top: 0; */
 }
 
 .box{
-    height: 500px;
-    background-color: white;
+    height: 650px;
+    background-color: transparent;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -394,17 +382,18 @@ a, a:hover, a:focus, a:active a:link{
 
 .card{
     display: inline-block;
-    background-color: lightgrey;
     height: 100%;
     width: 500px;
     margin: 10px;
+    background-color: transparent;
+    border: none;
     /* padding: 0px 20px 0px 20px; */
 }
 
 .vid-container{
     /* height: 100%; */
-    height: 100%;
     width: 100%;
+    height: auto;
     -o-object-fit: cover;
      object-fit: cover;
      /* overflow: hidden; */
@@ -418,6 +407,27 @@ a, a:hover, a:focus, a:active a:link{
 .floating:hover {
     -webkit-transform: scale(0.95);
             transform: scale(0.95);
+}
+
+
+.projtext{
+    padding: 10px 0px 20px 15px;
+}
+
+.projname{
+    font-size: 19px;
+    color: #D8AB4E;
+    font-weight: 600;
+}
+
+.projtools{
+    padding-top: 10px;
+    color: #5e5e5e;
+}
+
+.projdesc{
+    font-size: 14px;
+    color: grey;
 }
 
 
@@ -510,13 +520,7 @@ a, a:hover, a:focus, a:active a:link{
 
 /* TABLETS */
 @media (max-width: 1024px) {
-    .welcome{
-        /* text-align: center; */
-        /* overflow: auto;
-        text-align: center;
-        display: block;
-        background-size: cover; */
-    }
+    
 
     .welcome-contents{
         left: 15%;
@@ -608,13 +612,14 @@ a, a:hover, a:focus, a:active a:link{
 
     .projects{
           margin-left: 0px;
+
     }
 
     .box {
         /* padding: 20px 0; */
-        height: 350px;
+        height: 500px;
         overflow-x: scroll;
-        overflow-y: scroll;
+        overflow-y: hidden;
         white-space: nowrap;
 
     }
@@ -684,24 +689,24 @@ a, a:hover, a:focus, a:active a:link{
 
     .projects{
         /* position: relative; */
-        height: 500px;
+        height: 600px;
         margin-left: 0px;
     }
         
     .box {
         /* margin-left: 50px;
         padding: 20px 0; */
-        height: 450px;
+        height: 800px;
         /* background-color: transparent; */
         overflow-x: scroll;
-        overflow-y: scroll;
+        overflow-y: hidden;
         white-space: nowrap;
       }
 
       .card {
         display: inline-block;
         height: 100%;
-        width: 400px;
+        width: 300px;
         /* background-color: transparent;
         color: var(--clr-light);
         margin-right: 20px; */
@@ -733,6 +738,16 @@ a, a:hover, a:focus, a:active a:link{
 } */
 
 @media (max-width: 420px) and (max-height: 750px){
+    .wrapper{
+        padding: 0.5em;
+    }
+
+    .welcome{
+        height: calc(100vh - 1em);
+        width: calc(100vw - 1em);
+        
+    }
+    
     .popout{
         font-size: 2.5em;
     }
