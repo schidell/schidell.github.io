@@ -244,14 +244,14 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .b1{
-    font-size: 15px;
+    font-size: 16px;
     color: #5E5E5E;
     font-weight: 400;
     margin-top: 1em;
 }
 
 .b2{
-    font-size: 15px;
+    font-size: 16px;
     color: #D8AB4E;
     font-weight: 600;
     margin-top: 1em;
@@ -273,7 +273,7 @@ a, a:hover, a:focus, a:active a:link{
 
 .highlight-item{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     background-color: #6D7993;
     /* border-radius: 50%; */
     /* border-radius: 10px / 20%;; */
@@ -415,18 +415,18 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .projname{
-    font-size: 19px;
+    font-size: 20px;
     color: #D8AB4E;
     font-weight: 600;
 }
 
 .projtools{
-    padding-top: 10px;
+    padding-top: 11px;
     color: #5e5e5e;
 }
 
 .projdesc{
-    font-size: 14px;
+    font-size: 15px;
     color: grey;
 }
 
@@ -704,7 +704,7 @@ a, a:hover, a:focus, a:active a:link{
 
     .projects{
         /* position: relative; */
-        height: 600px;
+        height: 650px;
         margin-left: 0px;
     }
         
