@@ -85,14 +85,32 @@ a, a:hover, a:focus, a:active a:link{
     border: 2px solid #6D7993;
 }
 
+.HoverState{
+    color: #6D7993;
+    border: 2px solid #6D7993;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 12px;
+    padding: 2px 6px 2px 6px;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    left: 25px;
+    top: -20px;
+}
+
+.nav-item .HoverState{
+    display: none;
+}
+
+.nav-item:hover .HoverState{
+    display: block;
+}
+
 .active-s {
     background-color: #6D7993;
     border: 2px solid #5E5E5E;
 }
-
-
-  
-  
 
 /* WELCOME PAGE */
 .welcome{
@@ -609,6 +627,7 @@ a, a:hover, a:focus, a:active a:link{
 
     .about-me{
         margin-left: 0px;
+        width: 100%;
     }
 
     .column{
@@ -651,6 +670,7 @@ a, a:hover, a:focus, a:active a:link{
         display: block;
         height: fit-content;
         margin-left: 0px;
+        width: 100%;
     }
 
     /* .projects{
@@ -673,7 +693,7 @@ a, a:hover, a:focus, a:active a:link{
 
     .projects{
           margin-left: 0px;
-
+          width: 100%;
     }
 
     .box {
@@ -708,10 +728,12 @@ a, a:hover, a:focus, a:active a:link{
 
     .travel{
         margin-left: 0px;
+        width: 100%;
     }
 
     .contact{
         margin-left: 0px;
+        width: 100%;
         
     }
 }
