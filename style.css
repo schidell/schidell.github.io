@@ -86,9 +86,14 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .HoverState{
-    color: #6D7993;
+    /* color: #6D7993;
     border: 2px solid #6D7993;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); */
+
+    color: white;
+    border: 2px solid #5E5E5E;
+    background-color: #6D7993;
+
     width: fit-content;
     border-radius: 12px;
     padding: 2px 6px 2px 6px;
@@ -97,6 +102,7 @@ a, a:hover, a:focus, a:active a:link{
     position: relative;
     left: 25px;
     top: -20px;
+    transition:all .5s ease-in-out;
 }
 
 .nav-item .HoverState{
@@ -595,6 +601,96 @@ a, a:hover, a:focus, a:active a:link{
     /* position: fixed;
     top: 0; */
 }
+
+.middle {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #f2f2f2;
+    margin: 10px;
+    border-radius: 30%;
+    color: #6D7993;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .btn-l {
+    display: inline-block;
+    width: 290px;
+    height: 70px;
+    background: #f2f2f2;
+    margin: 10px;
+    border-radius: 12%;
+    color: #6D7993;
+    overflow: hidden;
+    position: relative;
+    line-height: 60px;
+  }
+  
+  .btn i {
+    line-height: 60px;
+    font-size: 26px;
+    transition: .2s linear;
+  }
+  
+  .btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    background: #6D7993;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+  }
+  
+  .btn:hover::before  {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
+  
+  @keyframes aaa {
+    
+    0% {
+      top: -110%;
+      left: 90%;
+    }
+    
+     50% {
+      top:  10%;
+      left: -30%;
+    }
+    
+     100% {
+      top: -10%;
+      left: -10%;
+    }
+  }
+
+  /* FOOTER */
+  .f{
+      background-color: #6D7993;
+      height: 50px;
+  }
+  .f-t{
+      text-align: center;
+      color: white;
+      line-height: 50px;
+  }
 
 
 /* TABLETS */
