@@ -420,10 +420,14 @@ a, a:hover, a:focus, a:active a:link{
 
 
 .resume-text{
-    color:#5E5E5E;
+    color:#D8AB4E;
     text-decoration: underline;
     font-size: 16px;
     font-weight: 600;
+}
+
+.resume-text:hover{
+    color: #5e5e5e;
 }
 
 /* PROJECTS PAGE */
@@ -438,8 +442,13 @@ a, a:hover, a:focus, a:active a:link{
     float: none;
 }
 
-.box{
+/* .arrow{
+    width: 500px;
     height: 650px;
+} */
+
+.box{
+    height: 670px;
     background-color: transparent;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -500,6 +509,17 @@ a, a:hover, a:focus, a:active a:link{
     color: grey;
 }
 
+.projlink{
+    font-size: 14px;
+    font-weight: 600;
+    color: #D8AB4E;
+    padding-top: 10px;
+}
+
+.projlink:hover{
+    color: #5e5e5e;
+}
+
 
 /* TRAVEL PAGEEEEEEEEEEEEEE */
 .travel{
@@ -552,6 +572,7 @@ a, a:hover, a:focus, a:active a:link{
     filter: grayscale(0%);
 
   }
+
 
   .carousel{
     display: none;
@@ -609,6 +630,12 @@ a, a:hover, a:focus, a:active a:link{
     /* transform: translate(-50%, -50%); */
     text-align: center;
   }
+
+  /* .resume{
+      height: 70px;
+      width: 100px;
+      display: block;
+  } */
   
   .btn {
     display: inline-block;
@@ -794,7 +821,7 @@ a, a:hover, a:focus, a:active a:link{
 
     .box {
         /* padding: 20px 0; */
-        height: 500px;
+        height: 530px;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
@@ -868,14 +895,14 @@ a, a:hover, a:focus, a:active a:link{
 
     .projects{
         /* position: relative; */
-        height: 650px;
+        height: 680px;
         margin-left: 0px;
     }
         
     .box {
         /* margin-left: 50px;
         padding: 20px 0; */
-        height: 800px;
+        height: 890px;
         /* background-color: transparent; */
         overflow-x: scroll;
         overflow-y: hidden;
