@@ -268,7 +268,7 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .about-btn{
-    width: 120px;
+    width: 150px;
     /* border: 1px solid grey; */
     margin-left: 0.6em;
     text-align: center;
@@ -410,11 +410,6 @@ a, a:hover, a:focus, a:active a:link{
     padding-bottom: 50px;
     width: 100%;
     /* width: 250px; */
-}
-
-.line{
-    /* margin-left: 30px; */
-    display: none;
 }
 
 .company{
@@ -838,9 +833,6 @@ a, a:hover, a:focus, a:active a:link{
 
     }
 
-    .line{
-        display: none;
-    }
 
     .company{
         display: block;
