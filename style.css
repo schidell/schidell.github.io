@@ -297,6 +297,9 @@ a, a:hover, a:focus, a:active a:link{
     line-height: 50px;
     padding-bottom: 0.5em;
     /* background-color: #E4DFE1; */
+    /* background: linear-gradient(to right, red 50%, blue 50%); */
+    width: fit-content;
+    /* padding: 15px; */
 }
 
 .h-l{
@@ -653,7 +656,6 @@ a, a:hover, a:focus, a:active a:link{
 /* CONTACT PAGE */
 .contact{
     margin-left: 3.5em;
-
     /* position: relative; */
     height: fit-content;
     width: 95%;
@@ -696,6 +698,18 @@ a, a:hover, a:focus, a:active a:link{
   }
 
   .btn-small {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #f2f2f2;
+    margin: 5px 0px 0px 10px;
+    border-radius: 30%;
+    color: #6D7993;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .btn-small-t {
     display: inline-block;
     width: 45px;
     height: 45px;
