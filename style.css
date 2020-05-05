@@ -277,7 +277,7 @@ a, a:hover, a:focus, a:active a:link{
     background: #f2f2f2;
     color: #D8AB4E;
     font-weight: 600;
-    FONT-SIZE: 20px;
+    font-size: 20px;
     line-height: 14px;
     margin-top: 5px;
 }
@@ -368,6 +368,19 @@ a, a:hover, a:focus, a:active a:link{
 .highlight-item{
     font-weight: 600;
     font-size: 16px;
+    background-color: #6D7993;
+    /* border-radius: 50%; */
+    /* border-radius: 10px / 20%;; */
+    border-radius: 19px;
+    text-align: center;
+    padding: 8px 16px;
+    line-height: 2.7em;
+    color: white;
+}
+
+.highlight-item-large{
+    font-weight: 600;
+    font-size: 20px;
     background-color: #6D7993;
     /* border-radius: 50%; */
     /* border-radius: 10px / 20%;; */
@@ -642,7 +655,7 @@ a, a:hover, a:focus, a:active a:link{
     margin-left: 3.5em;
 
     /* position: relative; */
-    height: 100%;
+    height: fit-content;
     width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
@@ -769,6 +782,42 @@ a, a:hover, a:focus, a:active a:link{
     }
   }
 
+  .contact-btn{
+    /* width: 150px; */
+    /* border: 1px solid grey; */
+    margin-left: 0.6em;
+    text-align: center;
+    padding: 15px 19px 15px 19px;
+    border-radius: 14px;
+    background: #f2f2f2;
+    color: #5e5e5e;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    transition: 150ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #5e5e5e;
+    color: white;
+}
+
 
   /* FOOTER */
   .f{
@@ -780,6 +829,7 @@ a, a:hover, a:focus, a:active a:link{
       color: white;
       line-height: 50px;
   }
+  
 
 
 /* TABLETS */
