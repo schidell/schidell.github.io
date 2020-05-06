@@ -66,7 +66,6 @@ a, a:hover, a:focus, a:active a:link{
     position: fixed;
     left: 3.5em;
     top: 40vh;
-    /* width: 20px; */
 }
 
 .nav-item{
@@ -86,10 +85,6 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .HoverState{
-    /* color: #6D7993;
-    border: 2px solid #6D7993;
-    background-color: rgb(255, 255, 255); */
-
     color: white;
     border: 2px solid #5E5E5E;
     background-color: #6D7993;
@@ -124,24 +119,12 @@ a, a:hover, a:focus, a:active a:link{
     width: calc(100vw - 2em);
     overflow: hidden;
     text-align: center;
-    
-    /* position: relative;
-    top:0;
-    left:0;
-    text-align: center;
-    display: block;  */
-
-    /* text-align: center; */
-    /* padding: 1em; */
 }
 
 .welcome-contents{
     left: 15%;
     top: 40%; 
     max-width: 70%;
-    /* text-align: center; */
-    /* position: relative; */
-
 }
 
 .hello{
@@ -156,9 +139,6 @@ a, a:hover, a:focus, a:active a:link{
     color: white;
     font-size: 4em;
     font-weight: 700;
-    /* text-align: center; */
-    /* line-height: 4.5em; */
-        /* font-size: 5vw; */
 }
 
 @-webkit-keyframes ani {
@@ -232,44 +212,15 @@ a, a:hover, a:focus, a:active a:link{
             animation-delay: -0.5s;
   }
 
-/* .name-m{
-    display: none;
-} */
-
-/* .cont-btn{
-    display: block;
-    border-radius: 12px;
-    background-color:  #6D7993;
-    font-size: 20px;
-    font-weight:500;
-    color: white;
-    margin-bottom: 2em;
-    text-decoration: none;
-    border: 2px solid #6D7993;
-    padding: 5px 10px;
-} */
-
-/* .cont-btn:hover{
-    background-color: #6D7993;
-    color: black;
-
-} */
-
-/* ABOUT ME PAGE */
+/* ABOUT ME */
 .about-me{
     margin-left: 3.5em;
-    /* height: 100%; */
-    /* width: 95%; */
     padding: 6vw 5vw 0vw 5vw;
     display: block; 
-    /* z-index: 100000; */
-    /* position: fixed;
-    top: 0; */
 }
 
 .about-btn{
     width: 150px;
-    /* border: 1px solid grey; */
     margin-left: 0.6em;
     text-align: center;
     padding: 15px;
@@ -288,8 +239,6 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .h1{
-    /* margin-left: 120px; */
-    /* float: left; */
     color: white;
     font-size: 2.5em;
     font-weight:800;
@@ -321,8 +270,6 @@ a, a:hover, a:focus, a:active a:link{
     float: left;
     width: 50%;
     padding: 10px 20px 20px 0px;
-    /* height: 2vh;  */
-    /* padding-bottom: 1em; */
 }
 
 .a-m-t{
@@ -331,12 +278,7 @@ a, a:hover, a:focus, a:active a:link{
 
 
 .pic-me{
-    /* display: inline-block; */
-    /* width: 50em; */
-    /* display: block; */
     width: 100%;
-    /* float: left; */
-    /* padding-bottom: 1em; */
 }
 
 .b1{
@@ -372,8 +314,6 @@ a, a:hover, a:focus, a:active a:link{
     font-weight: 600;
     font-size: 16px;
     background-color: #6D7993;
-    /* border-radius: 50%; */
-    /* border-radius: 10px / 20%;; */
     border-radius: 19px;
     text-align: center;
     padding: 8px 16px;
@@ -385,8 +325,6 @@ a, a:hover, a:focus, a:active a:link{
     font-weight: 600;
     font-size: 20px;
     background-color: #6D7993;
-    /* border-radius: 50%; */
-    /* border-radius: 10px / 20%;; */
     border-radius: 19px;
     text-align: center;
     padding: 8px 16px;
@@ -396,28 +334,16 @@ a, a:hover, a:focus, a:active a:link{
 
 /* EXPERIENCE PAGE */
 .experience{
-    /* position: relative; */
     margin-left: 3.5em;
-    /* height: 100%; */
-    /* width: auto; */
     padding: 6vw 0vw 0vw 5vw;
     display: block; 
     float: left;
-    /* height: fit-content; */
-
-
-    /* overflow: hidden; */
-
-    /* position: fixed;
-    top: 0; */
 }
 
 .column-t {
     float: left;
     width: 30%;
     padding: 20px 20px 20px 70px;
-    /* height: 2vh;  */
-    /* padding-bottom: 1em; */
 }
 
 .company-logo{
@@ -425,7 +351,6 @@ a, a:hover, a:focus, a:active a:link{
     padding-right: 20px;
     padding-bottom: 50px;
     width: 100%;
-    /* width: 250px; */
 }
 
 .company{
@@ -465,17 +390,16 @@ a, a:hover, a:focus, a:active a:link{
     color: #5e5e5e;
 }
 
-/* PROJECTS PAGE */
+/* PROJECTS */
 .projects{
     margin-left: 3.5em;
-    /* height: 100%;
-    width: 95%; */
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
     flex-direction: column;
     position: relative;
     float: none;
 }
+
 
 .push{
     padding-bottom: 15px;
@@ -488,18 +412,13 @@ a, a:hover, a:focus, a:active a:link{
     line-height: 40px;
 }
 
-
-/* .arrow{
-    width: 500px;
-    height: 650px;
-} */
-
 .box{
     height: 670px;
     background-color: transparent;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    margin-bottom: 20px;
 }
 
 .box::-webkit-scrollbar{
@@ -513,16 +432,13 @@ a, a:hover, a:focus, a:active a:link{
     margin: 10px;
     background-color: transparent;
     border: none;
-    /* padding: 0px 20px 0px 20px; */
 }
 
 .vid-container{
-    /* height: 100%; */
     width: 100%;
     height: auto;
     -o-object-fit: cover;
      object-fit: cover;
-     /* overflow: hidden; */
 }
 
 .floating {
@@ -534,7 +450,6 @@ a, a:hover, a:focus, a:active a:link{
     -webkit-transform: scale(0.95);
             transform: scale(0.95);
 }
-
 
 .projtext{
     padding: 10px 0px 20px 15px;
@@ -568,11 +483,9 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 
-/* TRAVEL PAGEEEEEEEEEEEEEE */
+/* TRAVEL */
 .travel{
     margin-left: 3.5em;
-
-    /* position: relative; */
     height: 100%;
     width: 95%;
     padding: 6vw 5vw 0vw 5vw;
@@ -588,7 +501,7 @@ a, a:hover, a:focus, a:active a:link{
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /* four equal columns */
   .c {
     flex: 25%;
     max-width: 25%;
@@ -625,7 +538,7 @@ a, a:hover, a:focus, a:active a:link{
     display: none;
 }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* make two column-layout */
   @media screen and (max-width: 1200px) {
     .c {
       flex: 50%;
@@ -636,7 +549,7 @@ a, a:hover, a:focus, a:active a:link{
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* stack */
   @media screen and (max-width: 600px) {
     .r{
         display:none;
@@ -656,24 +569,18 @@ a, a:hover, a:focus, a:active a:link{
 /* CONTACT PAGE */
 .contact{
     margin-left: 3.5em;
-    /* position: relative; */
-    /* height: fit-content; */
+    height: 100vh;
     width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
     flex-direction: column;
     position: relative;
     float: none;
-
-    /* position: fixed;
-    top: 0; */
 }
 
 .middle {
-    /* position: absolute; */
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
     text-align: center;
   }
 
@@ -797,8 +704,6 @@ a, a:hover, a:focus, a:active a:link{
   }
 
   .contact-btn{
-    /* width: 150px; */
-    /* border: 1px solid grey; */
     margin-left: 0.6em;
     text-align: center;
     padding: 15px 19px 15px 19px;
@@ -808,7 +713,7 @@ a, a:hover, a:focus, a:active a:link{
     font-weight: 600;
     font-size: 18px;
     line-height: 14px;
-    margin-top: 10px;
+    margin-top: 10px;       
 }
 
 button {
@@ -842,6 +747,7 @@ button:focus {
       text-align: center;
       color: white;
       line-height: 50px;
+      font-size: 13px;
   }
   
 
@@ -855,21 +761,6 @@ button:focus {
         top: 30%; 
     }
 
-    /* .popout{
-        font-size: 5.5em;
-    } */
-
-    /* .name{
-        display: none;
-    } */
-    /* .name-m{
-        display: block;
-        color: white;
-        font-size: 10vw;
-        font-weight:800;
-        padding: 0.2em;
-    } */
-
     .sticky-nav{
         display: none;
     }
@@ -877,26 +768,24 @@ button:focus {
     .about-me{
         margin-left: 0px;
         width: 100%;
+        margin-bottom: 50px;
+
     }
 
     .column{
         width: 100%;
         float: none;
         padding-left: 0px;
-        /* display: block; */
-        /* position: relative; */
-        /* display: block; */
     }
 
     .a-m-t{
-        padding-bottom: 0px 0px 20px 0px;
+        margin-bottom: 50px;
     }
 
     .company-logo{
         padding: 0px 0px 25px 0px;
 
     }
-
 
     .company{
         display: block;
@@ -906,44 +795,26 @@ button:focus {
     }
 
     .column-t{
-        /* width: 100%;
-        float: none;
-        padding: 0px; */
         display: none;
     }
 
     .experience{
         display: block;
-        /* height: fit-content; */
         margin-left: 0px;
+        margin-bottom: 50px;
         width: 100%;
     }
-
-    /* .projects{
-        
-        height: 100%;
-        width: 100%;
-        padding: 6vw 5vw 0vw 5vw;
-        display: inline-flexbox;
-        flex-direction: column;
-        position: relative;
-        float: none;
-    } */    
-
-   
-    /* .projects{
-        height: 400px;
-    }
-    
-      */
 
     .projects{
           margin-left: 0px;
           width: 100%;
     }
 
+    .mobile-only-text{
+        display: none;
+    }
+
     .box {
-        /* padding: 20px 0; */
         height: 530px;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -955,15 +826,7 @@ button:focus {
         display: inline-block;
         height: 100%;
         width: 350px;
-        /* background-color: transparent;
-        color: var(--clr-light);
-        margin-right: 20px; */
     }
-/* 
-    .card{
-        height: 100%;
-        width: 100%;
-    } */
 
     .vid-container{
         width: 100%;
@@ -979,6 +842,7 @@ button:focus {
 
     .contact{
         margin-left: 0px;
+        height: fit-content;
         width: 100%;
         
     }
@@ -986,13 +850,6 @@ button:focus {
 
 /* ROTATED PHONE */
 @media (max-width: 896px) and (max-height: 414px){
-    .welcome{
-        /* overflow: auto;
-        text-align: center;
-        display: block;
-        background-size: cover;  */
-        /* height: 200vh;  */
-    }
 
     .popout{
         font-size: 2.5em;
@@ -1010,23 +867,17 @@ button:focus {
         margin-left: 0px;
     }
 
-    /* .card .img-container .img {
-        position: relative;
-        height: 100%;
-        width: 100%;
-      } */
-
     .projects{
-        /* position: relative; */
         height: 1180px;
         margin-left: 0px;
     }
+
+    .mobile-only-text{
+        display: none;
+    }
         
     .box {
-        /* margin-left: 50px;
-        padding: 20px 0; */
         height: 890px;
-        /* background-color: transparent; */
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
@@ -1036,9 +887,6 @@ button:focus {
         display: inline-block;
         height: 100%;
         width: 300px;
-        /* background-color: transparent;
-        color: var(--clr-light);
-        margin-right: 20px; */
       }
       
       .vid-container {
@@ -1060,11 +908,6 @@ button:focus {
 
 
 /* GENERAL SMALL DEVICES */
-/* @media (max-width: 410px) {
-    .popout{
-        font-size: 3em;
-    }
-} */
 
 @media (max-width: 420px) and (max-height: 750px){
     .wrapper{
@@ -1079,6 +922,10 @@ button:focus {
     
     .popout{
         font-size: 2.5em;
+    }
+
+    .mobile-only-text{
+        display: none;
     }
 
 }
