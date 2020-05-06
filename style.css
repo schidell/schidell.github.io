@@ -258,8 +258,8 @@ a, a:hover, a:focus, a:active a:link{
 /* ABOUT ME PAGE */
 .about-me{
     margin-left: 3.5em;
-    height: 100%;
-    width: 95%;
+    /* height: 100%; */
+    /* width: 95%; */
     padding: 6vw 5vw 0vw 5vw;
     display: block; 
     /* z-index: 100000; */
@@ -398,12 +398,12 @@ a, a:hover, a:focus, a:active a:link{
 .experience{
     /* position: relative; */
     margin-left: 3.5em;
-    height: 100%;
-    width: auto;
+    /* height: 100%; */
+    /* width: auto; */
     padding: 6vw 0vw 0vw 5vw;
     display: block; 
     float: left;
-    height: fit-content;
+    /* height: fit-content; */
 
 
     /* overflow: hidden; */
@@ -468,8 +468,8 @@ a, a:hover, a:focus, a:active a:link{
 /* PROJECTS PAGE */
 .projects{
     margin-left: 3.5em;
-    height: 100%;
-    width: 95%;
+    /* height: 100%;
+    width: 95%; */
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
     flex-direction: column;
@@ -657,7 +657,7 @@ a, a:hover, a:focus, a:active a:link{
 .contact{
     margin-left: 3.5em;
     /* position: relative; */
-    height: fit-content;
+    /* height: fit-content; */
     width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
@@ -914,7 +914,7 @@ button:focus {
 
     .experience{
         display: block;
-        height: fit-content;
+        /* height: fit-content; */
         margin-left: 0px;
         width: 100%;
     }
