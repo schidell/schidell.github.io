@@ -569,7 +569,7 @@ a, a:hover, a:focus, a:active a:link{
 /* CONTACT PAGE */
 .contact{
     margin-left: 3.5em;
-    height: 100vh;
+    /* height: fit-content; */
     width: 95%;
     padding: 6vw 5vw 0vw 5vw;
     display: flex;
@@ -742,6 +742,7 @@ button:focus {
   .f{
       background-color: #6D7993;
       height: 50px;
+      display: block;
   }
   .f-t{
       text-align: center;
@@ -753,7 +754,12 @@ button:focus {
 
 
 /* TABLETS */
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
+
+
+    .not-phones{
+        display: none;
+    }
     
 
     .welcome-contents{
