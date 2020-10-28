@@ -279,6 +279,7 @@ a, a:hover, a:focus, a:active a:link{
 
 .pic-me{
     width: 100%;
+    max-width: 1000px;
 }
 
 .b1{
@@ -351,6 +352,7 @@ a, a:hover, a:focus, a:active a:link{
     padding-right: 20px;
     padding-bottom: 50px;
     width: 100%;
+    max-width: 400px;
 }
 
 .company{
@@ -376,6 +378,7 @@ a, a:hover, a:focus, a:active a:link{
     padding-bottom: 30px;
     padding-top: 15px;
     display: block;
+    max-width: 1000px;
 }
 
 
