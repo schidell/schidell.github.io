@@ -280,6 +280,7 @@ a, a:hover, a:focus, a:active a:link{
 .pic-me{
     width: 100%;
     max-width: 1000px;
+    /* float: right; */
 }
 
 .b1{
