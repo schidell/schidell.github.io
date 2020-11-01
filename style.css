@@ -275,14 +275,14 @@ a, a:hover, a:focus, a:active a:link{
 .a-m-t{
     padding-top: 20px;
     padding-right: 100px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 
 .pic-me{
     width: 100%;
     max-width: 800px;
-    /* float: right; */
+    float: right;
 }
 
 .b1{
@@ -792,6 +792,11 @@ button:focus {
 
     .a-m-t{
         margin-bottom: 50px;
+    }
+
+    .pic-me{
+        float: left;
+        margin-bottom: 40px;
     }
 
     .company-logo{
