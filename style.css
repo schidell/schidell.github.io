@@ -239,7 +239,6 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .h1{
-    color: white;
     font-size: 2.5em;
     font-weight:800;
     color: #6D7993;
@@ -247,8 +246,9 @@ a, a:hover, a:focus, a:active a:link{
     padding-bottom: 0.5em;
     /* background-color: #E4DFE1; */
     /* background: linear-gradient(to right, red 50%, blue 50%); */
-    width: fit-content;
+    /* width: fit-content; */
     /* padding: 15px; */
+    /* text-align: center; */
 }
 
 .h-l{
@@ -268,18 +268,20 @@ a, a:hover, a:focus, a:active a:link{
 
 .column {
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 10px 20px 20px 0px;
 }
 
 .a-m-t{
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 10px;
 }
 
 
 .pic-me{
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     /* float: right; */
 }
 
@@ -349,7 +351,7 @@ a, a:hover, a:focus, a:active a:link{
 }
 
 .company-logo{
-    float:left;
+    float:right;
     padding-right: 20px;
     padding-bottom: 50px;
     width: 100%;
